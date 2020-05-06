@@ -1,2 +1,4 @@
-playground
+Playground
 ==========
+
+Things I play with :-).
