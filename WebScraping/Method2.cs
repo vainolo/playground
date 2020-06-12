@@ -8,8 +8,8 @@ namespace Vainolo.WebScraping
     {
         public static void Scrape()
         {
-            var scraper = new HtmlWeb();
-            var page = scraper.Load("https://vainolo.z14.web.core.windows.net/WebScraping.html");
+            var page = new HtmlDocument();
+            page.Load("WebScraping.html");
             var nodes = page.DocumentNode.Descendants().SkipWhile(e => e.Id != "Techniques").Skip(1).TakeWhile(e => e.Name != "h2");
 
             foreach (var currNode in nodes)
