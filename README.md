@@ -1,4 +1,3 @@
-Playground
-==========
+## This repository has been deprecated. 
 
-Things I play with :-).
+## Content has moved to [https://github.com/vainolo/Vainosamples](https://github.com/vainolo/Vainosamples)
